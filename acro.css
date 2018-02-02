@@ -1,0 +1,64 @@
+
+body {
+  background: lightgray;
+  font-size: 1em;
+  font-family: Tahoma, Verdana, sans-serif;
+  position: relative;
+}
+
+.acro {
+  margin: 1px 5px 2px 2px;
+  padding: 0px 0px 3px 7px;
+  position: relative;
+  float: left;
+  clear: left;
+  width: 8em;
+  color: white;
+  font-weight: 700;
+  background-color: #b0b0b0;
+  border: 1px solid black;
+}
+
+.qtrSize {
+  font-size: 0.25em;
+}
+
+.bottomDivs {
+  width: 98%;
+  position: fixed;
+  height: 60%;
+}
+
+#inputDiv {
+  margin-top: 0.5em;
+  margin-bottom: 1.2em;
+  padding-bottom: 1.1em;
+  text-align: center;
+  border-bottom: 5px solid darkgray;
+}
+
+#inputBox {
+  font-size: 1.5em;
+}
+
+#clearBtn {
+  margin-left: 1em;
+  font-size: 1.3em;
+}
+
+#initBtn {
+  float: right;
+  margin-bottom: 3px;
+}
+
+#addBtn {
+  float: right;
+  clear: both;
+}
+
+#resultsDiv {
+  overflow: auto;
+  height: 98%;
+  width: 98%;
+  position: absolute;
+}
