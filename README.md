@@ -4,6 +4,11 @@ acro is an acronym/definition viewer written in JavaScript and VBScript with an 
 ## Usage
 Run the `acro.hta` file. Once the HTA interface loads, type a term in the search bar to search for it, or click the **Add** button to add a new term to the file.
 
+To use an existing text file with acro, the acronyms or definitions must be separated by an equal sign (`=`) with no spaces, like this:
+
+    acronym=what it stands for
+    term or phrase=what it means
+
 ## Requirements
 There must already be a text file in the same directory as the `acro.hta` file. (Future versions will create a new text file if none exists.) By default this file must be named `acronyms.txt` but you can change that by replacing the file name in the `acro.vbs` file on this line:
 ```vbs
